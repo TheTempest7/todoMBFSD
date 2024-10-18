@@ -1,0 +1,21 @@
+.wrapper {
+  margin: 20px 0;
+  display: flex;
+  align-items: baseline;
+}
+.descriptionWrapper {
+  p {
+    white-space: nowrap;
+    color: #8e8e8e;
+  }
+}
+.buttonsWrapper {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 1 100%;
+  gap: 10px;
+}
+
+button.activeButton {
+  border: 2px solid navy ;
+}

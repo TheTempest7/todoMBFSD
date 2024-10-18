@@ -1,0 +1,20 @@
+.wrapper {
+  margin: 5px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  p {
+    font-family: LatoRegular;
+    cursor: pointer;
+  }
+}
+.disabled {
+  pointer-events: none;
+  p {
+    color: darkgrey;
+  }
+}
+
+.checkedItemDescription {
+  text-decoration: line-through;
+}

@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding:0 50px;
+  width: 900px;
+  h1 {
+    font-family: 'LatoBold';
+    font-size: 72px;
+    color: #1976d2;
+  }
+}

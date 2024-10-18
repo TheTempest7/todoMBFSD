@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'LatoBold';
+  src: url('../shared/fonts/Lato-Bold.woff2') format('woff2'),
+  url('../shared/fonts/Lato-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LatoRegular';
+  src: url('../shared/fonts/Lato-Regular.woff2') format('woff2'),
+  url('../shared/fonts/Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.App {
+  margin: 20vh auto 0 ;
+  padding: 30px 0;
+  border: 2px solid #1976d2;
+  border-radius: 5px;
+  font-family: LatoRegular;
+  width: 900px;
+}
